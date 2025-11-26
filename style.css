@@ -1,0 +1,144 @@
+/* تنسيقات عامة للجسم والخط */
+body {
+    background: linear-gradient(to top, #ffe4e1, #d544a7); /* تدرج وردي ناعم */
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    direction: ltr; /* لجعل الكتابة من اليمين إلى اليسار */
+    min-height: 100vh;
+}
+
+/* تنسيق الحاوية الرئيسية (البطاقات البيضاء/الوردية) */
+.screen {
+    background-color: white;
+    max-width: 450px;
+    margin: 40px auto;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transition: all 0.5s ease-in-out;
+}
+
+/* تنسيق شاشة القفل */
+#lock-screen {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.icon-lock {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+}
+
+.title-lock {
+    color: #a41863; /* وردي عميق */
+    margin-bottom: 20px;
+}
+
+/* تنسيق الإدخال */
+#password-input {
+    width: 80%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 2px solid #df91ca;
+    border-radius: 10px;
+    text-align: right;
+    font-size: 16px;
+}
+
+/* تنسيق الأزرار الأساسية */
+.btn-primary {
+    background-color: #d357b4; /* وردي زاهي */
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #FF1493; /* وردي عميق عند التمرير */
+}
+
+/* تنسيق الرسالة الترحيبية */
+.title-intro {
+    color: #b72b76;
+    font-size: 28px;
+}
+
+/* تنسيق بطاقات الذكريات */
+.memory-card {
+    background-color: #F8F8FF;
+    border-radius: 15px;
+    padding: 15px;
+    margin-bottom: 25px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.card-image {
+    width: 50%;
+    height: 50%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.card-caption {
+    color: #555;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.video-container {
+    padding: 10px;
+    border: 1px dashed #FFC0CB;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+/* تنسيق شاشة الرسالة النهائية */
+.final-screen {
+    background-color: #FFF0F5; /* لون وردي فاتح جداً */
+    border: 3px solid #FF69B4;
+}
+
+.title-final {
+    color: #FF1493;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.text-final {
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+.btn-restart {
+    background-color: #333;
+    color: white;
+    margin-top: 30px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.signature {
+    margin-top: 30px;
+    font-weight: bold;
+    color: #FF69B4;
+    font-size: 14px;
+}
+
+/* تنسيق رسالة الخطأ */
+.error-message {
+    color: red;
+    margin-top: 10px;
+    font-weight: bold;
+}
