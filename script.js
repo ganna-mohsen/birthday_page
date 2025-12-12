@@ -1,5 +1,5 @@
 // الكلمة السرية (يمكنكِ تغييرها هنا)
-const CORRECT_PASSWORD = "1912";
+const CORRECT_PASSWORD = "19122003";
 
 // ربط العناصر من HTML
 const lockScreen = document.getElementById('lock-screen');
